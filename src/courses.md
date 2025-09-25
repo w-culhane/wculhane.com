@@ -2,10 +2,19 @@
 
 Format: `[CREDITS] COURSE CODE: COURSE NAME`
 
+## Graduate
+
+- [3] [ECE 560](https://catalog.ncsu.edu/search/?P=%22ECE%20560%22): Embedded System Architectures
+- [3] [ECE 563](https://catalog.ncsu.edu/search/?P=%22ECE%20563%22): Microprocessor Architecture
+- [3] [ECE 564](https://catalog.ncsu.edu/search/?P=%22ECE%20564%22): ASIC & FPGA Design with Verilog
+- [1] [ECE 600](https://catalog.ncsu.edu/search/?P=%22ECE%20600%22): Graduate Orientation
+
+## Undergraduate
+
 Also available in flowchart form:
 [SVG](/doc/courses_undergrad.svg) [PDF](/doc/courses_undergrad.pdf) [SRC](https://git.sr.ht/%7Elearax/courses-flowchart)
 
-## Chemical & biological engineering
+### Chemical & biological engineering
 
 - [3] [EBIO 438](http://catalog.montana.edu/search/?P=%22EBIO%20438%22): Bioprocess Engineering
 - [4] [ECHM 201](http://catalog.montana.edu/search/?P=%22ECHM%20201%22): Principles of Biological and Chemical Engineering
@@ -25,7 +34,7 @@ Also available in flowchart form:
 - [0] [EGEN 488](http://catalog.montana.edu/search/?P=%22EGEN%20488%22): FE Exam
 - [3] [EMAT 251](http://catalog.montana.edu/search/?P=%22EMAT%20251%22): Materials Structures and Properties
 
-## Chemistry
+### Chemistry
 
 - [4] [CHMY 151](http://catalog.montana.edu/search/?P=%22CHMY%20151%22): Honors College Chemistry 1
 - [4] [CHMY 153](http://catalog.montana.edu/search/?P=%22CHMY%20153%22): Honors College Chemistry 2
@@ -34,7 +43,7 @@ Also available in flowchart form:
 - [4] [CHMY 333](http://catalog.montana.edu/search/?P=%22CHMY%20333%22): Honors Organic Chemistry 2
 - [3] [CHMY 373](http://catalog.montana.edu/search/?P=%22CHMY%20373%22): Physical Chemistry 2: Kinetics and Thermodynamics
 
-## Computer science
+### Computer science
 
 - [3] [CSCI 112](http://catalog.montana.edu/search/?P=%22CSCI%20112%22): Programming with C
 - [4] [CSCI 127](http://catalog.montana.edu/search/?P=%22CSCI%20127%22): Joy and Beauty of Data
@@ -44,7 +53,7 @@ Also available in flowchart form:
 - [3] [CSCI 460](http://catalog.montana.edu/search/?P=%22CSCI%20460%22): Operating Systems
 - [3] [CSCI 466](http://catalog.montana.edu/search/?P=%22CSCI%20466%22): Networks
 
-## Electrical & computer engineering
+### Electrical & computer engineering
 
 - [3] [EELE 101](http://catalog.montana.edu/search/?P=%22EELE%20101%22): Intro to Electrical Fundamentals
 - [4] [EELE 201](http://catalog.montana.edu/search/?P=%22EELE%20201%22): Circuits 1
@@ -65,7 +74,7 @@ Also available in flowchart form:
 - [2] [EELE 488R](http://catalog.montana.edu/search/?P=%22EELE%20488R%22): Electrical Engineering Design 1
 - [3] [EELE 489R](http://catalog.montana.edu/search/?P=%22EELE%20489R%22): Electrical Engineering Design 2
 
-## General engineering
+### General engineering
 
 - [3] [EGEN 102](http://catalog.montana.edu/search/?P=%22EGEN%20102%22): Intro to Engineering Computations and Applications
 - [3] [EGEN 310R](http://catalog.montana.edu/search/?P=%22EGEN%20310R%22): Multidisciplinary Engineering Design
@@ -77,7 +86,7 @@ Also available in flowchart form:
 - [4] [PHSX 220](http://catalog.montana.edu/search/?P=%22PHSX%20220%22): Physics 1 (with Calculus)
 - [4] [PHSX 222](http://catalog.montana.edu/search/?P=%22PHSX%20222%22): Physics 2 (with Calculus)
 
-## Honors & CORE
+### Honors & CORE
 
 - [3] [CS 145RA](http://catalog.montana.edu/search/?P=%22CS%20145RA%22): Web Design
 - [4] [ECNS 251IS](http://catalog.montana.edu/search/?P=%22ECNS%20251IS%22): Honors Economics
