@@ -4,10 +4,14 @@ Format: `[CREDITS] COURSE CODE: COURSE NAME`
 
 ## Graduate
 
+- [3] [ECE 506](https://catalog.ncsu.edu/search/?P=%22ECE%20506%22): Architecture of Parallel Computers
+- [3] [ECE 546](https://catalog.ncsu.edu/search/?P=%22ECE%20546%22): VLSI Systems Design
 - [3] [ECE 560](https://catalog.ncsu.edu/search/?P=%22ECE%20560%22): Embedded System Architectures
 - [3] [ECE 563](https://catalog.ncsu.edu/search/?P=%22ECE%20563%22): Microprocessor Architecture
 - [3] [ECE 564](https://catalog.ncsu.edu/search/?P=%22ECE%20564%22): ASIC & FPGA Design with Verilog
 - [1] [ECE 600](https://catalog.ncsu.edu/search/?P=%22ECE%20600%22): Graduate Orientation
+- [3] [ECE 721](https://catalog.ncsu.edu/search/?P=%22ECE%20721%22): Advanced Microarchitecture
+- [3] [ECE 745](https://catalog.ncsu.edu/search/?P=%22ECE%20745%22): ASIC Verification
 
 ## Undergraduate
 
