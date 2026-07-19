@@ -2,6 +2,7 @@ image: archlinux
 packages:
   - lowdown
   - cpio
+  - hut
 oauth: pages.sr.ht/PAGES:RW
 environment:
   site: wculhane.com
@@ -10,5 +11,4 @@ tasks:
     cd $site
     make site.tar.gz
 - upload: |
-    acurl -f https://pages.sr.ht/publish/$site \
-    -Fcontent=@$site/site.tar.gz
+    hut pages publish -d $site $site/site.tar.gz
