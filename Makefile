@@ -6,7 +6,7 @@ all: site.tar.gz
 
 dst: $(SRCFILES)
 	mkdir -p dst
-	./bin/ssg src dst 'William Culhane' 'wculhane.com'
+	./bin/ssg src dst 'William Culhane' 'https://wculhane.com'
 
 site.tar.gz: dst
 	tar --exclude=.files -cvzC dst/ . > site.tar.gz

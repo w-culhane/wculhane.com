@@ -1,0 +1,63 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches:
+      - tonic
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out the site
+        uses: actions/checkout@v6
+
+      - name: Read pinned documents revision
+        id: documents
+        run: echo "revision=$(git rev-parse HEAD:src/doc)" >> "$GITHUB_OUTPUT"
+
+      # The documents repository is private. DOCS_DEPLOY_KEY must be a
+      # read-only SSH deploy key registered on w-culhane/wculhane.com-doc.
+      - name: Check out documents
+        uses: actions/checkout@v6
+        with:
+          repository: w-culhane/wculhane.com-doc
+          ref: ${{ steps.documents.outputs.revision }}
+          path: src/doc
+          ssh-key: ${{ secrets.DOCS_DEPLOY_KEY }}
+          persist-credentials: false
+
+      - name: Install build dependencies
+        run: sudo apt-get update && sudo apt-get install --yes lowdown cpio
+
+      - name: Build site
+        run: |
+          make dst
+          test -s dst/doc/resume.pdf
+          test -s dst/doc/courses_undergrad.pdf
+          test -s dst/doc/courses_undergrad.svg
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dst
+
+      - name: Deploy site
+        id: deployment
+        uses: actions/deploy-pages@v4
