@@ -4,18 +4,29 @@ Format: `[CREDITS] COURSE CODE: COURSE NAME`
 
 ## Graduate
 
+### Computer architecture
+
 - [3] [ECE 506](https://catalog.ncsu.edu/search/?P=%22ECE%20506%22): Architecture of Parallel Computers
-- [3] [ECE 546](https://catalog.ncsu.edu/search/?P=%22ECE%20546%22): VLSI Systems Design
 - [3] [ECE 560](https://catalog.ncsu.edu/search/?P=%22ECE%20560%22): Embedded System Architectures
 - [3] [ECE 563](https://catalog.ncsu.edu/search/?P=%22ECE%20563%22): Microprocessor Architecture
-- [3] [ECE 564](https://catalog.ncsu.edu/search/?P=%22ECE%20564%22): ASIC & FPGA Design with Verilog
-- [3] [ECE 570](https://catalog.ncsu.edu/search/?P=%22ECE%20570%22): Computer Networks
 - [3] [ECE 592](https://catalog.ncsu.edu/search/?P=%22ECE%20592%22): Microarch Reverse Engineering and Security
-- [1] [ECE 600](https://catalog.ncsu.edu/search/?P=%22ECE%20600%22): Graduate Orientation
-- [3] [ECE 720](https://catalog.ncsu.edu/search/?P=%22ECE%20720%22): Electronic System Level and Physical Design
 - [3] [ECE 721](https://catalog.ncsu.edu/search/?P=%22ECE%20721%22): Advanced Microarchitecture
+
+### VLSI & physical design
+
+- [3] [ECE 546](https://catalog.ncsu.edu/search/?P=%22ECE%20546%22): VLSI Systems Design
+- [3] [ECE 720](https://catalog.ncsu.edu/search/?P=%22ECE%20720%22): Electronic System Level and Physical Design
+
+### RTL & verification
+
+- [3] [ECE 564](https://catalog.ncsu.edu/search/?P=%22ECE%20564%22): ASIC & FPGA Design with Verilog
 - [3] [ECE 745](https://catalog.ncsu.edu/search/?P=%22ECE%20745%22): ASIC Verification
-- [3] [ECE 748](https://catalog.ncsu.edu/search/?P=%22ECE%20748%22): Advanced Functional Verification with Universal Verification Methodology
+- [3] [ECE 748](https://catalog.ncsu.edu/search/?P=%22ECE%20748%22): Advanced Functional Verification with UVM
+
+### Other
+
+- [3] [ECE 570](https://catalog.ncsu.edu/search/?P=%22ECE%20570%22): Computer Networks
+- [1] [ECE 600](https://catalog.ncsu.edu/search/?P=%22ECE%20600%22): Graduate Orientation
 
 ## Undergraduate
 
